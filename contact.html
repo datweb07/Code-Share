@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liên hệ - CodeJourney</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">CodeJourney</a>
+        <div class="nav-links">
+          <a href="index.html">Trang chủ</a>
+          <a href="about.html">Giới thiệu</a>
+          <a href="contact.html" class="active">Liên hệ</a>
+          <button class="btn login-btn">Đăng nhập</button>
+        </div>
+        <button class="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+      <div class="container">
+        <h1>Liên hệ với chúng tôi</h1>
+        <p>Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn</p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-info">
+          <h2>Thông tin liên hệ</h2>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Địa chỉ</h3>
+              <p>Số 123, đường ABC, quận XYZ, TP. Hồ Chí Minh</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+              <h3>Email</h3>
+              <p>contact@codejourney.vn</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="info-content">
+              <h3>Điện thoại</h3>
+              <p>+84 123 456 789</p>
+            </div>
+          </div>
+          <div class="social-media">
+            <h3>Mạng xã hội</h3>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form">
+          <h2>Gửi tin nhắn cho chúng tôi</h2>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Họ và tên</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group">
+              <label for="subject">Chủ đề</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Nội dung</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn">Gửi tin nhắn</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq">
+      <div class="container">
+        <h2>Câu hỏi thường gặp</h2>
+        <div class="faq-item">
+          <button class="faq-question">
+            Làm cách nào để đóng góp bài viết cho CodeJourney?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Bạn có thể gửi bài viết của mình qua email contact@codejourney.vn
+              với tiêu đề "[Đóng góp bài viết] - Tên bài viết". Chúng tôi sẽ xem
+              xét và phản hồi trong vòng 3-5 ngày làm việc.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            CodeJourney có tổ chức các khóa học offline không?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Hiện tại chúng tôi chỉ cung cấp các tài nguyên học tập trực tuyến
+              miễn phí và chưa tổ chức các khóa học offline. Tuy nhiên, chúng
+              tôi thường xuyên tổ chức các buổi meetup trực tuyến để giao lưu
+              với cộng đồng.
+            </p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">
+            Tôi có thể sử dụng tài liệu trên CodeJourney để dạy học không?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>
+              Tất cả tài liệu trên CodeJourney đều miễn phí và bạn có thể sử
+              dụng để giảng dạy, với điều kiện ghi rõ nguồn từ CodeJourney và
+              không sử dụng với mục đích thương mại.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map">
+      <div class="container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.126365377724!2d106.66001031526085!3d10.801834361698936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2sHo%20Chi%20Minh%20City%20University%20of%20Technology!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3>CodeJourney</h3>
+            <p>
+              Nền tảng chia sẻ kiến thức và kinh nghiệm tự học lập trình cho
+              người Việt.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3>Liên kết</h3>
+            <ul>
+              <li><a href="index.html">Trang chủ</a></li>
+              <li><a href="about.html">Giới thiệu</a></li>
+              <li><a href="contact.html">Liên hệ</a></li>
+              <li><a href="#">Điều khoản</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Tài nguyên</h3>
+            <ul>
+              <li><a href="#">Tài liệu HTML/CSS</a></li>
+              <li><a href="#">Tài liệu JavaScript</a></li>
+              <li><a href="#">Dự án mẫu</a></li>
+              <li><a href="#">Sách hay</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Hỗ trợ</h3>
+            <ul>
+              <li><a href="#">Câu hỏi thường gặp</a></li>
+              <li><a href="#">Hướng dẫn sử dụng</a></li>
+              <li><a href="#">Góp ý</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 CodeJourney. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
